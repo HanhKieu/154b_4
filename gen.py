@@ -125,6 +125,7 @@ def main():
 			elif opcode == "100011": #LW
 				memToReg = "1"
 				memRead = "1"
+				aluOp = "0011"
 			elif opcode == "101011": #SW
 				regWrite = "0"
 				memWrite = "1"
